@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/dagger/dagger-2.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/dagger/dagger-compiler-2.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/dagger/dagger-producers-2.0-beta.jar"/>
+	<classpathentry kind="lib" path="lib/rxjava/rxjava-1.0.14.jar"/>
+	<classpathentry kind="lib" path="lib/rxjava/rxjava-async-util-0.21.0.jar"/>
+	<classpathentry kind="lib" path="lib/rxjava/rxjava-computation-expressions-0.21.0.jar"/>
+	<classpathentry kind="lib" path="lib/rxjava/rxjava-debug-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/rxjava/rxjava-joins-0.22.0.jar"/>
+	<classpathentry kind="lib" path="lib/rxjava/rxjava-math-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/rxjava/rxjava-reactive-streams-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/rxjava/rxjava-string-0.22.0.jar"/>
+	<classpathentry kind="lib" path="lib/dagger/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="lib/mbassador-1.2.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

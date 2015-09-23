@@ -27,6 +27,7 @@ public abstract class AbstractLauncher extends Application {
 			.setTitle("Fatal Error")
 			.setHeaderText("An error occurred initializing the app")
 			.showAndWait();
+			System.exit(1);
 		}
 		
 		try {
@@ -38,6 +39,7 @@ public abstract class AbstractLauncher extends Application {
 					.setTitle("Fatal Error")
 					.setHeaderText("An error occurred loading the main view")
 					.showAndWait();
+			System.exit(1);
 		}
 
 	}

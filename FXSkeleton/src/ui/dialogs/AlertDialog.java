@@ -53,7 +53,7 @@ public class AlertDialog extends BaseDialog {
 	}
 
 
-	public AlertDialog setStackTraceDetails(Exception ex) {
+	public AlertDialog setStackTraceDetails(Throwable ex) {
 		setContentText(dialog.getContentText() + " " + ex.getMessage());
 		ex.printStackTrace();
 		// Create expandable Exception.

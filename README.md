@@ -6,6 +6,7 @@ The purpose of this project is to build a UI application framework based on Java
 
 
 ###Structure
+A proper code abstraction is essential for code maintainability. This library tries to organize the different UI elements that compose an application with hierarchical layers (Workbench, Perspective, Component, Fragment) giving different responsabilities to each one.
 
 #####Launcher
 The entry point of an application is the launcher. It's scope is to initialize the application and configure the workbench.
@@ -44,6 +45,7 @@ Perspective provides the content to be rendered when it is active. Content inclu
 
 
 #####Component
-
+It's the fragment container. It's purpose is be the glue among different fragments with the same scope. 
 
 #####Fragment
+Is the last "atomic" UI element. Can be loaded both by a FXML file or directly coded into tha application. 

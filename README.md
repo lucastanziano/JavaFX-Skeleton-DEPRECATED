@@ -49,3 +49,7 @@ It's the fragment container. It's purpose is be the glue among different fragmen
 
 #####Fragment
 Is the last "atomic" UI element. Can be loaded both by a FXML file or directly coded into tha application. 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/lucastanziano/javafx-skeleton/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+

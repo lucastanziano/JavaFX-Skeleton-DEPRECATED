@@ -1,6 +1,6 @@
 # JavaFX-Skeleton
 
-Note: this project is still under development
+Note: this project was only an experiment to reduce the boilerplate of developing JavaFX applications. Even if the problem of boilerplate in JavaFX application still exist I don't believe any more that this library can actually be useful. It is too coupled to the Java implementation and this can be a serious risk for maintanance and support of future versions of JavaFX.
 
 The purpose of this project is to build a UI application framework based on JavaFX, supporting developers to structure an application with loosely coupled and reusable components.
 
